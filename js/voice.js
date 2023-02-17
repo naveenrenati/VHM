@@ -33,7 +33,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to home page";
       texts.appendChild(p);
       console.log("opening home page");
-      window.open("https://health-web-api.herokuapp.com/");
+      window.open("https://main.dqq50igkdjvps.amplifyapp.com/");
     }
     if (text.includes("open my services")) {
       p = document.createElement("p");
@@ -41,7 +41,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to Services page";
       texts.appendChild(p);
       console.log("opening services page");
-      window.open("https://health-web-api.herokuapp.com/services.html");
+      window.open("https://main.dqq50igkdjvps.amplifyapp.com/");
     }
     if (text.includes("heart disease")||text.includes("Heart disease")) {
       p = document.createElement("p");
@@ -49,7 +49,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to heart disease prediction";
       texts.appendChild(p);
       console.log("opening heart disease prediction page");
-      window.open("https://heart-web-api.herokuapp.com/");
+      window.open("https://heart-api-zkvi.onrender.com");
     }
     if (text.includes("liver disease") || text.includes("Liver disease")) {
       p = document.createElement("p");
@@ -57,7 +57,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to liver disease prediction";
       texts.appendChild(p);
       console.log("opening liver disease prediction page");
-      window.open("https://liverapi.herokuapp.com/");
+      window.open("https://liver-api.onrender.com");
     }
     if (text.includes("kidney disease") || text.includes("Kidney Disease")) {
       p = document.createElement("p");
@@ -65,7 +65,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to kidney disease prediction";
       texts.appendChild(p);
       console.log("opening kidney disease prediction page");
-      window.open("https://kidney-web.herokuapp.com/");
+      window.open("https://kidney-api.onrender.com");
     }
     if (text.includes("diabetes disease")|| text.includes("Diabetes disease")) {
       p = document.createElement("p");
@@ -73,7 +73,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to diabetes disease prediction";
       texts.appendChild(p);
       console.log("opening diabetes disease prediction page");
-      window.open("https://dabetes.herokuapp.com/");
+      window.open("https://diabetes-api.onrender.com");
     }
     if (text.includes("Cancer disease") || text.includes("cancer disease")) {
       p = document.createElement("p");
@@ -81,7 +81,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to cancer disease prediction";
       texts.appendChild(p);
       console.log("opening cancer disease prediction page");
-      window.open("https://cancer-web.herokuapp.com/");
+      window.open("https://cancer-gxh5.onrender.com");
     }
     if (text.includes("pneumonia disease")|| text.includes("Pneumonia disease")) {
       p = document.createElement("p");
@@ -97,7 +97,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to BMI page";
       texts.appendChild(p);
       console.log("opening BMI page");
-      window.open("https://bmi-web-api.herokuapp.com/");
+      window.open("https://main.dtgksd69id8ks.amplifyapp.com/");
     }
     if (text.includes("BMR")||text.includes("bmr")) {
       p = document.createElement("p");
@@ -105,7 +105,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "Redirecting to BMR page";
       texts.appendChild(p);
       console.log("opening pneumonia BMR page");
-      window.open("https://bmr-web.herokuapp.com/");
+      window.open("https://main.du9guqrcabitx.amplifyapp.com/");
     }
     p = document.createElement("p");
   }
