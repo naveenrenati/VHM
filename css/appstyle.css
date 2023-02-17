@@ -1,0 +1,158 @@
+@import url("font-awesome.min.css");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  background-color: #4bc5b8;
+}
+
+.layout_padding {
+  padding: 90px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+
+.book_section {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 188, 164, 0.55)), to(rgba(86, 188, 164, 0.55))), url(../images/book-bg.jpg);
+  background-image: linear-gradient(to right, rgba(86, 188, 164, 0.55), rgba(86, 188, 164, 0.55)), url(../images/book-bg.jpg);
+  background-size: cover;
+  color: #000000;
+}
+
+.book_section form {
+  padding: 35px 45px;
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.07);
+}
+
+.book_section form h4 {
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book_section form h4 .design_dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #4bc5b8;
+  margin-right: 5px;
+}
+
+.book_section form label {
+  color: #000000;
+}
+
+.book_section form .form-control {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  background-color: #deece9;
+  height: 45px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 5px;
+  padding: 0 15px;
+  color: #000000;
+}
+
+.book_section form .form-control::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.book_section form .form-control:-ms-input-placeholder {
+  color: #000000;
+}
+
+.book_section form .form-control::-ms-input-placeholder {
+  color: #000000;
+}
+
+.book_section form .form-control::placeholder {
+  color: #000000;
+}
+
+.book_section form #inputDate {
+  color: #56bca4;
+}
+
+.book_section form #inputDate input {
+  color: #000000;
+}
+
+.book_section form button.btn {
+  background-color: #35806e;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.book_section .date_icon {
+  right: 10px;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #56bca4;
+}
+
+.book_section .nice-select {
+  color: #000000 !important;
+}
+
+.book_section .nice-select:after {
+  content: "\f107";
+  font-family: FontAwesome;
+  border: none;
+  width: auto;
+  height: auto;
+  -webkit-transform: none;
+          transform: none;
+  top: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.book_section .nice-select.open:after {
+  content: "\f106";
+}
+
